@@ -21,3 +21,17 @@ function min(numbers) {
   }
   return minNumber;
 }
+
+
+
+
+function average(numbers) {
+  let sum = 0;
+
+  numbers.forEach(function(value) {
+    sum += value;
+  });
+  
+  return(sum/numbers.length);
+}
+
